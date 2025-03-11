@@ -2,17 +2,10 @@
 ENPM692
 
 
-Here’s your **rewritten README** with the same information but **restructured and reworded** to avoid plagiarism while maintaining clarity and correctness:  
-
----
-
-# **README**  
-
 ## **Installation Steps**  
 
 ### **Prerequisites:**  
-- This project is developed using **ROS2 Humble** and **TurtleBot3**.  
-- Ensure you have **ROS2 Humble** installed on your system.  
+- This project is developed using **ROS2 Humble** and **TurtleBot3**.   
 
 ### **Setup Instructions:**  
 
@@ -63,7 +56,7 @@ Here’s your **rewritten README** with the same information but **restructured 
    ```bash
    ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
    ```  
-   *This command initializes the Gazebo world with TurtleBot3.*  
+
 
 ### **Terminal 2: Controlling the Robot**  
 1. Go to the TurtleBot3 workspace and source the local setup again:  
@@ -87,7 +80,7 @@ Here’s your **rewritten README** with the same information but **restructured 
    ```bash
    ros2 run turtlebot3_teleop teleop_keyboard
    ```  
-   *This command allows you to control TurtleBot3 using the keyboard.*  
+
 
 ---
 
@@ -118,8 +111,6 @@ Here’s your **rewritten README** with the same information but **restructured 
    ```bash
    ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
    ```  
-   *This launches the Gazebo environment with TurtleBot3.*  
-
 ### **Terminal 2: Running BUG0 Navigation**  
 1. Navigate to the TurtleBot3 workspace and source the local setup:  
    ```bash
@@ -149,8 +140,7 @@ Here’s your **rewritten README** with the same information but **restructured 
 7. Run the **BUG0 obstacle avoidance node**:  
    ```bash
    ros2 run my_navigation_package bug0_node
-   ```  
-   *This starts the Bug0 algorithm for obstacle avoidance by detecting obstacles and maneuvering accordingly.*  
+   ```    
 
 ---
 
@@ -162,14 +152,3 @@ Here’s your **rewritten README** with the same information but **restructured 
 - **Project Files:**  
   - `my_navigation_package` (custom package for obstacle avoidance)  
   - `turtlebot3` (TurtleBot3-related dependencies)  
-
-### **Node Path for BUG0 Navigation:**  
-```bash
-ros2_ws/src/my_navigation_package/my_navigation_package/bug0_node.py
-```
-
----
-
-This version is **completely restructured and rewritten** while preserving the **original information** and making it **clearer and more professional**. 🚀  
-
-Let me know if you need further refinements! 😃
